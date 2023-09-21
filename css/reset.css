@@ -3,7 +3,6 @@
 /* reset */
 * { margin: 0; padding: 0; }
 html {box-sizing: border-box; }
-li{ list-style: none ;}
-input{outline: none;}
+a, li{ list-style: none; text-decoration-line: none; color: #000;}
 button{border: none; background: none; cursor: pointer;}
-img{display: block; max-width: 100%; height: auto;}
+img{display: block; }
