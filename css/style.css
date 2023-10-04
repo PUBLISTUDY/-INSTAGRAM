@@ -55,39 +55,14 @@ main .search-container{
     padding: 0 52px;
 }
 
-/* .search-wrap */
-.search-wrap{
-    padding: 72px 280px 32px;
-}
-
-.search-wrap h1{
-    font-size: 40px;
-    margin-bottom: 16px;
-}
-
-.search-wrap .search-text-box,
-.search-wrap .search-text-box p,
-.search-wrap .search-text-box .home-box,
-.search-wrap .search-text-box .home-box p,
-.search-wrap .search-text-box .home-box img{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.search-wrap .search-text-box p{
-    font-size: 12px;
-    color: #121212;
-}
-
-.search-wrap .search-text-box .home-box p{
-    font-size: 12px;
-    color: #605F5F;
-    line-height: 0;
-}
-
 /* .nothing-wrap */
 .nothing-wrap{
     padding: 120px 280px 250px;
+}
+
+.nothing-wrap img{
+    margin: 0 auto;
+    margin-bottom: 34px;
 }
 
 .nothing-wrap h2{
@@ -112,12 +87,13 @@ main .search-container{
 }
 
 .nothing-wrap .search-box button{
-    width: 111px;
+    width: 171px;
     background: #121212;
     color: #fff;
     border-radius: 6px;
     height: 52px;
     line-height: 52px;
+    font-size: 18px;
 }
 
 .nothing-wrap .search-box .search-input-box{
@@ -258,6 +234,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding: 10px 16px;
     }
     header h1{
         display: inline-block;
@@ -276,15 +253,11 @@ footer{
     main .search-container{
         padding: 0 16px;
     }
-    .search-wrap{
-        width: 100%;
-        padding: 0;
-    }
-    .search-wrap h1{
-        font-size: 26px;
-    }
     .search-text-box{
         margin-bottom: 40px;
+    }
+    .nothing-wrap{
+        margin-top: 120px;
     }
     .nothing-wrap h2{
         font-size: 26px;
@@ -336,7 +309,7 @@ footer{
     }
     .m-footer-wrap{
         display: block;
-        padding: 0 16px 24px;
+        padding: 48px 16px 24px;
     }
     .m-footer-wrap .info-container{
         flex-direction: column;
