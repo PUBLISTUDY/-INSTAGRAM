@@ -385,6 +385,8 @@ footer{
     }
     .m-footer-wrap .list-wrap .toggle>li:first-child{
         font-weight: 600;
+        margin-right: 10px;
+        letter-spacing: -1px;
     }
     .m-footer-wrap .list-wrap .toggle li{margin-bottom: auto;}
     .m-footer-wrap .list-wrap .toggle .toggle2{
@@ -393,6 +395,11 @@ footer{
     }
     .m-footer-wrap .list-wrap .toggle .toggle2 li{
         display: none;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .m-footer-wrap .list-wrap .toggle .toggle2 li:not(:last-child){
+        margin-bottom: 6px;
     }
     .m-footer-wrap .list-wrap .toggle .toggle2.active{
         display: block;
