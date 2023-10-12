@@ -1,1 +1,1 @@
-<h1><a href="https://publistudy.github.io/publish-study07-sua/">반응형 웹 02</a></h1>
+<h1><a href="https://publistudy.github.io/publish-study07-sua/">반응형 웹 03</a></h1>
