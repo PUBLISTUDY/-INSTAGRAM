@@ -32,6 +32,10 @@ header nav {
     margin-right: 338px;
 }
 
+header nav ul li a{
+color: #fff;
+}
+
 header nav ul li:not(:last-child){
     margin-right: 40px;
 }
@@ -43,79 +47,61 @@ header .info-wrap> a > img{
 header .info-wrap .basket-box span{
     display: inline-block;
     padding: 5px 10px;
-    background: #000;
-    color: #fff;
+    background: #fff;
+    color: #000;
     border-radius: 50%;
     font-size: 12px;
 }
 
 
-/* main start */
-main .search-container{
-    padding: 0 52px;
+/* main */
+/* section01 */
+.section01{
+    width: 100%;
+    height: 100%;
 }
-
-/* .nothing-wrap */
-.nothing-wrap{
-    padding: 120px 280px 250px;
+.section01 .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
-
-.nothing-wrap img{
-    margin: 0 auto;
-    margin-bottom: 34px;
-}
-
-.nothing-wrap h2{
-    font-size: 34px;
-    margin-bottom: 12px;
-}
-
-.nothing-wrap p{
-    font-size: 18px;
-    color: #3E3E59;
-    margin-bottom: 32px;
-    letter-spacing: -0.5px;
-}
-
-.nothing-wrap,
-.nothing-wrap .search-box,
-.nothing-wrap .search-box .search-input-box,
-.nothing-wrap .search-box .search-input-box img,
-.nothing-wrap .search-box .search-input-box input{
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.nothing-wrap .search-box button{
-    width: 171px;
-    background: #121212;
+.section-text{
+    padding-top: 263px;
     color: #fff;
-    border-radius: 6px;
-    height: 52px;
-    line-height: 52px;
+}
+.section-text>p{
     font-size: 18px;
 }
-
-.nothing-wrap .search-box .search-input-box{
-    border: 1px solid #CBCBCB;
+.section-text>h1{
+    font-size: 80px;
+    margin-bottom: 24px;
+}
+.see-btn{
+    width: 200px;
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
     border-radius: 6px;
-    margin-right: 24px;
-    padding: 13px 16px;
+    background: var(--black-900, #121212);
+    margin: 0 auto;
+}
+.see-btn a{
+    color: #fff;
 }
 
-.nothing-wrap .search-box .search-input-box input{
-    width: 386px;
-    border: none;
-    outline: none;
-    margin-left:8px;
-}
 
-.nothing-wrap .search-box .search-input-box input::placeholder{
-    color: #A7A7A7;
-    font-size: 16px;
-    letter-spacing: 0.5px;
+/* section02 */
+.section02{
+    position: relative;
 }
-
 
 
 /* footer */
