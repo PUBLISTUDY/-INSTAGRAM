@@ -6,9 +6,11 @@ body {
     text-align: center;
 }
 header {
-    display: inline-block;
-    padding: 52px 19px;
+    width: 100%;
+    position: absolute;
+    padding: 52px 0;
     margin: 0 auto;
+    z-index: 10;
 }
 
 header h1,
@@ -53,13 +55,11 @@ header .info-wrap .basket-box span{
 }
 
 /* main */
+.container-wrap {
+}
 /* sectiont01 */
 .sectiont01{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+
 }
 .sectiont01 img{
     width: 100%;
@@ -106,6 +106,110 @@ header .info-wrap .basket-box span{
 }
 
 
+
+/* sectiont02 */
+.sectiont02 {
+    width: 100%;
+}
+.shop-patterns-wrap{
+    padding: 52px;
+}
+.shop-tit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 52px;
+}
+.shop-tit>p{
+    font-family: Space Grotesk;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 111.765% */
+    letter-spacing: -0.6px;
+}
+.shop-arr-img{
+    display: flex;
+}
+.shop-arr-img img:last-child{
+    rotate: -180deg;
+}
+.shop-list-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* sectiont03 */
+.sectiont03 {
+    padding: 52px !important;
+}
+.test-list{
+    padding: 52px;
+}
+.test-wrap>p{
+    font-family: Space Grotesk;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px; /* 107.407% */
+    letter-spacing: -1px;
+}
+.test-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.test-box{
+    margin-right: 32px;
+    margin-bottom: 56px;
+}
+.test-box>img{
+    margin-bottom: 12px;
+}
+.test-info>p{
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    letter-spacing: -0.4px;
+}
+.test-price,
+.test-price p{
+    display: inline-block;
+}
+.test-price p:first-child{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+}
+.test-price p:last-child{
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+    text-decoration-line: strikethrough;
+}
+.sectiont03 button{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.4px;
+    border-radius: 6px;
+    background: #121212;
+    color: #fff;
+    padding: 10px 26px;
+}
+
+
+/* 반응형 */
 @media (min-width: 320px) and (max-width: 376px){
  
 }
