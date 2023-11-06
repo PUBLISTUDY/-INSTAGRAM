@@ -197,7 +197,7 @@ header .info-wrap .basket-box span{
     line-height: 22px; /* 157.143% */
     text-decoration-line: strikethrough;
 }
-.sectiont03 button{
+button{
     font-size: 18px;
     font-weight: 500;
     line-height: 32px; /* 177.778% */
@@ -209,7 +209,79 @@ header .info-wrap .basket-box span{
 }
 
 
+/* sectiont03 */
+.john-wrap{
+    padding: 52px;
+}
+.john-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.john-profile>img{
+    margin-right: 16px;
+}
+.john-star-box{
+    text-align: left;
+}
+.john-star-box>p{
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.4px;
+}
+.john-star,
+.john-star img{
+    display: inline-block;
+}
+.john-info>p{
+    padding: 20px 0 16px;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 153.846% */
+}
+.john-arr-box,
+.john-arr-box img{
+    display: inline-block;
+}
+.john-arr-box img:last-child{
+    rotate: -180deg;
+    margin-left: 12px;
+}
+.instagram-wrap{
+    padding: 52px;
+}
+.instagram-tit>p:first-child{
+    font-family: Space Grotesk;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px; /* 110% */
+    letter-spacing: -0.4px;
+    margin-bottom: 16px;
+}
+.instagram-tit>p:last-child{
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 32px;
+}
+.instagram-img-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
+}
+.instagram-img-list>img:not(:last-child){
+    margin-right: 32px;
+}
 
 /* footer */
 footer{
