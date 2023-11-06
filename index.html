@@ -63,7 +63,8 @@
 <main>
     <div class="container-wrap">
         <div class="sectiont01">
-            <img src="./img/banner.png" alt="">
+            <img src="./img/banner.png" alt="" class="p-banner">
+            <img src="./img/mbanner.png" alt="" class="m-banner">
             <div class="artisan-wrap">
                 <p>ARTISAN FABRIC</p>
                 <p>Indulge yourself with<br> the finest kimonos.</p>
@@ -398,14 +399,14 @@
 </footer>
 
 <script>
-$(document).ready(function() {
-    $(".triger").click(function(e) {
-        e.preventDefault();
-        $(this).siblings(".toggle2").find("li").slideToggle("fast");
-        $(this).toggleClass("active");
+    $(document).ready(function() {
+        $(".triger").click(function(e) {
+            e.preventDefault();
+            $(this).siblings(".toggle2").find("li").slideToggle("fast");
+            $(this).toggleClass("active");
+        });
     });
-});
-</script>
+    </script>
     
 </body>
 </html>

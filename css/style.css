@@ -64,6 +64,9 @@ header .info-wrap .basket-box span{
 .sectiont01 img{
     width: 100%;
 }
+.m-banner{
+    display: none;
+}
 .artisan-wrap{
     position: absolute;
     top: 50%;
@@ -396,6 +399,159 @@ footer{
 
 
 /* 반응형 */
-@media (min-width: 320px) and (max-width: 376px){
- 
+@media (min-width: 320px) and (max-width: 400px){
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+    nav{
+        display: none;
+    }
+    .p-banner{
+        display: none;
+    }
+    .m-banner{
+        display: block;
+    }
+    .artisan-wrap>p:first-child{
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px; /* 157.143% */
+    }
+    .artisan-wrap>p:last-of-type{
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 44px; /* 110% */
+        letter-spacing: -0.4px;
+        margin-bottom: 24px;
+    }
+    .shop-box:nth-child(4),
+    .shop-box:nth-child(5),
+    .shop-box:nth-child(6){
+        display: none;
+    }
+    .section02{
+        overflow: hidden;
+    }
+    .shop-tit{
+        font-family: Space Grotesk;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 146.154% */
+    }
+    .shop-arr-img{
+        display: none;
+    }
+    .test-wrap>p{
+        font-family: Space Grotesk;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 38px; /* 111.765% */
+        letter-spacing: -0.6px;
+    }
+    .john-info>p{
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 30px; /* 166.667% */
+    }
+    .instagram-img-list{
+        flex-direction: column;
+    }
+    .instagram-img-list>img:not(:last-child){
+        margin-right: 0;
+    }
+    .instagram-img-list img:not(:last-child){
+        margin-bottom: 32px;
+    }
+    .instagram-tit>p:first-child{
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 140% */
+    }
+    .instagram-tit>p:last-of-type{
+        display: none;
+    }
+    .footer-wrap{
+        display: none;
+    }
+    .m-footer-wrap{
+        display: block;
+        padding: 0 16px 24px;
+    }
+    .m-footer-wrap .info-container{
+        flex-direction: column;
+    }
+    .m-footer-wrap .list-wrap{
+        flex-direction: column;
+    }
+    .m-footer-wrap>.copylight-wrap>.solid{
+        display: none;
+    }
+    .m-footer-wrap .copylight-wrap .lang-box .eng-wrap{
+        justify-content: center;
+        margin-bottom: 32px;
+    }
+    .m-footer-wrap .sns-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+    .m-footer-wrap .sns-box a:not(:last-child){
+        margin-right: 34px;
+    }
+    .m-footer-wrap .copylight-wrap .copylight >p{
+        text-align: center;
+        margin-bottom: 14px;
+        color: #3E3E59;
+    }
+    .m-footer-wrap .list-wrap{
+        margin-top: 10px;
+    }
+    .m-footer-wrap .list-wrap>ul{
+        width: 100%;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #CBCBCB;
+    }
+    .m-footer-wrap .list-wrap ul li{
+        font-weight: 100;
+    }
+    .m-footer-wrap .list-wrap .toggle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    .m-footer-wrap .list-wrap .toggle>li:first-child{
+        font-weight: 600;
+        margin-right: 10px;
+        letter-spacing: -1px;
+    }
+    .m-footer-wrap .list-wrap .toggle li{margin-bottom: auto;}
+    .m-footer-wrap .list-wrap .toggle .toggle2{
+        display: flex;
+        flex-direction: column;
+    }
+    .m-footer-wrap .list-wrap .toggle .toggle2 li{
+        display: none;
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .m-footer-wrap .list-wrap .toggle .toggle2 li:not(:last-child){
+        margin-bottom: 6px;
+    }
+    .m-footer-wrap .list-wrap .toggle .toggle2.active{
+        display: block;
+    }
 }
