@@ -87,24 +87,23 @@ header .info-wrap .basket-box span{
     line-height: 84px; /* 105% */
     letter-spacing: -3px;
 }
-.see-btn{  
-    display: flex;
-    padding: 10px 26px;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
+.see-btn{
+    display: inline-block;
+    padding: 10px 20px; /* 수정 가능한 패딩 값 */
     border-radius: 6px;
     background: #121212;
     color: #fff;
-}
-.see-btn>p{
-    display: inline;
 }
 .see-btn>img{
     width: 24px;
     height: 24px;
 }
-
+.see-btn > p,
+.see-btn > img {
+    display: inline; /* 텍스트와 이미지를 인라인으로 나타내기 */
+    vertical-align: middle; /* 수직 가운데 정렬을 위해 사용 */
+    margin: 0; /* 기본 마진 제거 */
+}
 
 
 /* sectiont02 */
@@ -271,12 +270,12 @@ button{
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
-    margin-bottom: 32px;
 }
 .instagram-img-list{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 32px;
 
 }
 .instagram-img-list>img:not(:last-child){
