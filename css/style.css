@@ -125,14 +125,28 @@ body {
 .posting-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* padding-left: 60px; */
+    /* justify-content: center; */
+    padding-left: 60px;
 }
-.user-info-box{
+.user-info-home-box{
     margin-top: auto;
-}
-.user-info-box p{
+    padding-right: 60px;
 
+}
+.user-info-home-box a{
+    display: inline-block;
+    margin-left: auto;
+}
+.user-info-home-box a img{
+    width: 30px;
+    margin-bottom: 30px;
+}
+.user-info-home-box p{
+    writing-mode: vertical-lr;
+    font-size: 30px;
+    color: #385365;
+    transform: rotate(180deg);
+    margin-right: auto;
 }
 
 
