@@ -125,7 +125,8 @@ body {
 .posting-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    /* padding-left: 60px; */
 }
 .user-info-box{
     margin-top: auto;
